@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #013803, #04B80A);
+}
+
+.card{
+    margin-top: 10%;
+    align-items: center;
+    box-shadow: 3px 6px 8px 3px rgba(10, 10, 10, 0.5);
+    border-radius: 10px;
+    width: 50%;
+    height: 50vh;
+}
+
+#img-logo-redonda{
+    margin-top: 1rem;
+    opacity: 60%;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}

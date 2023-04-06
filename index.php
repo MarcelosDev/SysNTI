@@ -2,7 +2,7 @@
     <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>NTI- Pio Décimo</title>
         <style>
@@ -42,7 +42,7 @@
           <img src="./images/logo.png" />
         </div>
         <div class="card">
-          <div class="card-bory">
+          <div class="card-body">
             <div class="alert alert-primary">
               <h1 id="titulos">Bem vindo !</h1>
               <br>

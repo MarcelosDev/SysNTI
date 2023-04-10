@@ -1,15 +1,20 @@
 body{
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     background-image: linear-gradient(to bottom, #013803, #04B80A);
 }
 
 .card{
-    margin-top: 10%;
-    align-items: center;
+    justify-content: center;
+    margin-left: 25%;    align-items: center;
     box-shadow: 3px 6px 8px 3px rgba(10, 10, 10, 0.5);
     border-radius: 10px;
-    width: 50%;
-    height: 70vh;
+    width: 45%;
+}
+
+.card-title{
+    margin-bottom: 30px;
 }
 
 #img-logo-redonda{
@@ -25,16 +30,21 @@ body{
     width: 140px;
 }
 
-.card-title{
-    margin-left: 30px;
-    margin-bottom: 30px;
+img#icon{
+    height: 1rem;
 }
 
-input{
-    margin-bottom: 15px;
-    
+input#checkbox{
+    background-color: #027a06;
 }
 
 #btn{
-
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
+
+/* @media screen, (){
+    .card-title{
+        font-size: 15px;
+    }
+} */

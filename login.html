@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="./css/login.css">
 
 </head>
-<body>
+<body class="d-flex">
     <div class="container">
         <div class="card">
             <img id="img-logo-redonda" src="./img/logo-nti.jpg" class="card-img-top" alt="NTI">
@@ -31,22 +31,34 @@
                 <h5 class="card-title">Gerenciador de Toner/Impressora | <img id="img-logo-gp" src="./img/logo-grupo-piox.png" alt="NTI"></h5>
                 <div class="row">
                     <div class="col">
-                        <div class="form-group col-md-15">
+                        <div class="input-group col-md-15">
+                            <div class="input-group-text">
+                                <img id="icon" src="./icon/person-fill.svg" alt="icon-username">
+                            </div>
                             <input class="form-control" type="text" name="user" id="user" autocomplete="off" maxlength="140" required="required" placeholder="Usuário:">
                         </div>
                     </div>
                 </div>
+                <br>
                 <div class="row">
                     <div class="col">
-                        <div class="form-group col-md-15">
+                        <div class="input-group col-md-15">
+                            <div class="input-group-text">
+                                <img id="icon" src="./icon/lock-fill.svg" alt="icon-password">
+                            </div>
                             <input class="form-control" type="password" name="password" id="password" autocomplete="off" maxlength="140" required="required" placeholder="Senha:">
                         </div>
                     </div>
                 </div>
+                <br>
+                <label class="form-check">
+                    <input id="checkbox" type="checkbox" class="form-check-input" name="fieldc643460936f0db" checked="">
+                    <span class="form-check-label">Lembrar de mim</span>
+                </label>
                 <div class="row">
                     <div class="col">
                         <div id="btn" class="form-group col-md-15">
-                            <button type="submit" class="btn btn-outline-success">ENTRAR</button>
+                            <button type="submit" class="btn btn-outline-success w-100">ENTRAR</button>
                         </div>
                     </div>
                 </div>

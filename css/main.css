@@ -1,1 +1,80 @@
-/* TELA LOGIN */
+/***** LOGIN *****/
+body#login{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #013803, #04B80A);
+}
+
+.card#login{
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;    
+    box-shadow: 3px 6px 8px 3px rgba(10, 10, 10, 0.5);
+    border-radius: 10px;
+    width: 40%;
+}
+
+#img-logo-redonda{
+    margin-top: 1rem;
+    /* opacity: 80%; */
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+
+
+img#icon{
+    height: 1rem;
+}
+
+input#checkbox{
+    background-color: #027a06;
+}
+
+#btn{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+/***** HOME TONER *****/
+body#home-toner{
+    background-image: linear-gradient(to bottom, #013803, #04B80A);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card#home-toner{
+    justify-content: center;
+    margin-left: 25%;    
+    align-items: center;
+    box-shadow: 3px 6px 8px 3px rgba(10, 10, 10, 0.5);
+    border-radius: 10px;
+    width: 45%;
+}
+
+#img-logo-gp{
+    height: 40px;
+    width: 140px;
+}
+
+h3#home-toner{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+a#home-toner{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black
+}

@@ -1,39 +1,17 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Marcelo Souza e Vitor Araujo">
-    <!-- <meta http-equiv="cache-control" content="no-cache" /> -->
-    <meta http-equiv="content-language" content="pt-br" />
-    <meta http-equiv="imagetoolbar" content="no" />
-    <meta name="copyright" content="© NTI | GRUPO PIO DECIMO" />
-    <title>Gerenciador de Toner/Impressora | Grupo Pio Décimo</title>
-    <!-- ICONE BARRA DO SITE -->
-    <link rel="shortcut icon" href="./img/logo.png" />
+<?php
+    include 'header.php';
+?> 
 
-    <!-- GOOGLE WEB FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
-
-    <!-- CSS LOCAL / CDN BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/login.css">
-
-</head>
-<body class="d-flex">
-    <div class="container">
-        <div class="card">
-            <img id="img-logo-redonda" src="./img/logo-nti.jpg" class="card-img-top" alt="NTI">
+<body id="login" class="d-flex">
+    <div id="login" class="container">
+        <div id="login" class="card">
+            <img id="img-logo-redonda-login" src="./img/logo-nti.jpg" class="card-img-top" alt="NTI">
             <div class="card-body">
-                <h5 class="card-title">Gerenciador de Toner/Impressora | <img id="img-logo-gp" src="./img/logo-grupo-piox.png" alt="NTI"></h5>
                 <div class="row">
                     <div class="col">
                         <div class="input-group col-md-15">
                             <div class="input-group-text">
-                                <img id="icon" src="./icon/person-fill.svg" alt="icon-username">
+                                <img id="icon-login" src="./icon/person-fill.svg" alt="icon-username">
                             </div>
                             <input class="form-control" type="text" name="user" id="user" autocomplete="off" maxlength="140" required="required" placeholder="Usuário:">
                         </div>
@@ -44,7 +22,7 @@
                     <div class="col">
                         <div class="input-group col-md-15">
                             <div class="input-group-text">
-                                <img id="icon" src="./icon/lock-fill.svg" alt="icon-password">
+                                <img id="icon-login" src="./icon/lock-fill.svg" alt="icon-password">
                             </div>
                             <input class="form-control" type="password" name="password" id="password" autocomplete="off" maxlength="140" required="required" placeholder="Senha:">
                         </div>
@@ -52,12 +30,12 @@
                 </div>
                 <br>
                 <label class="form-check">
-                    <input id="checkbox" type="checkbox" class="form-check-input" name="fieldc643460936f0db" checked="">
+                    <input id="checkbox-login" type="checkbox" class="form-check-input" name="fieldc643460936f0db" checked="">
                     <span class="form-check-label">Lembrar de mim</span>
                 </label>
                 <div class="row">
                     <div class="col">
-                        <div id="btn" class="form-group col-md-15">
+                        <div id="login" class="form-group col-md-15">
                             <button type="submit" class="btn btn-outline-success w-100">ENTRAR</button>
                         </div>
                     </div>
@@ -65,14 +43,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>

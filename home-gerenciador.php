@@ -28,20 +28,27 @@
                 <h2>Histórico dos Toners</h2>
             </div>
         </div>
-        <div class="container-fluid flex border border-dark p-3 my-3">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th>MODELO</th>
-                    <th>STATUS</th>
-                    <th>COMPATIBILIDADE</th>
-                    <th>IMAGEM</th>
-                    <th>DESCRIÇÃO</th>
-                </tr>
-            </thead>
-        </table>
+        <!-- <div class="page-wrapper mb-0">
+            <div class="page-body container-fluid">
 
-    </div>
+            </div>
+
+        </div> -->
+        <div class="container-fluid flex border border-dark p-3 my-3">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>STATUS</th>
+                        <th>MODELO</th>
+                        <th>COR</th>
+                        <th>COMPATIBILIDADE</th>
+                        <!-- <th>IMAGEM</th> -->
+                        <th>DESCRIÇÃO</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
     </div>
      <!-- <div class="container-fluid">
             <div id="fade" class="hide">

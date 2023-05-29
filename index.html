@@ -1,23 +1,76 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-  <title>Sidebar</title>
-</head>
-<body>
-  <nav class="sidebar">
-    <header>
-      <div class="image-text">
-        <span class="image">
-          <img src="logo.jpg" alt="logo">
-        </span>
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Sidebar</title>
+  </head>
+  <body>
+    <div class="sidebar close">
+      <div class="logo-detalhes">
+        <img src="logo.jpg" alt="logo">
+        <span class="nome-logo">Gerenciador</span>
       </div>
-    </header>
-  </nav>
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <i class='bx bxs-dashboard'></i>
+            <span class="nome-link">Dashboard</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="nome-link" href="#">Impressora</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="link-icone">
+            <a href="#">
+              <i class='bx bx-printer' ></i>
+              <span class="nome-link">Impressora</span>
+            </a>
+            <i class='bx bx-chevron-down arrow'></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="nome-link" href="#">Impressora</a></li>
+            <li><a href="#">Adicionar impressora</a></li>
+            <li><a href="#">Adicionar impressora</a></li>
+            <li><a href="#">Adicionar impressora</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="link-icone">
+            <a href="#">
+              <i class='bx bx-palette'></i>
+              <span class="nome-link">Cartuchos</span>
+            </a>
+            <i class='bx bx-chevron-down arrow'></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="nome-link" href="#">Cartuchos</a></li>
+            <li><a href="#">Adicionar cartuchos</a></li>
+            <li><a href="#">Adicionar cartuchos</a></li>
+            <li><a href="#">Adicionar cartuchos</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="link-icone">
+            <a href="#">
+              <i class='bx bx-scan'></i>
+              <span class="nome-link">Scanner</span>
+            </a>
+            <i class='bx bx-chevron-down arrow'></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="nome-link" href="#">Scanner</a></li>
+            <li><a href="#">Adicionar scanner</a></li>
+            <li><a href="#">Adicionar scanner</a></li>
+            <li><a href="#">Adicionar scanner</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
 
-</body>
-</html>
+  </body>
+  </html>

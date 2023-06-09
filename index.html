@@ -1,0 +1,114 @@
+  <!DOCTYPE html>
+  <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Sidebar</title>
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-detalhes">
+        <img src="img/logo.jpg" alt="logo">
+        <span class="nome-logo">Gerenciador</span>
+      </div>
+      <ul class="nav-links">
+        <!-- <li>
+          <i class='bx bx-search-alt-2 icon' ></i>
+          <input type="search" placeholder="Pesquisar...">
+        </li> -->
+        <li>
+          <a href="#">
+            <i class='bx bx-history'></i>
+            <span class="nome-link">Histórico</span>
+          </a>
+          <ul class="sub-menu blank">
+            <li><a class="nome-link" href="#">Histórico</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="link-icone">
+            <a href="#">
+              <i class='bx bx-printer' ></i>
+              <span class="nome-link">Impressoras</span>
+            </a>
+            <i class='bx bx-chevron-down arrow'></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="nome-link" href="#">Impressoras</a></li>
+            <li><a href="#">Adicionar impressora</a></li>
+            <li><a href="#">Adicionar impressora</a></li>
+            <li><a href="#">Adicionar impressora</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="link-icone">
+            <a href="#">
+              <i class='bx bx-palette'></i>
+              <span class="nome-link">Toners</span>
+            </a>
+            <i class='bx bx-chevron-down arrow'></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="nome-link" href="#">Toners</a></li>
+            <li><a href="#">Adicionar cartuchos</a></li>
+            <li><a href="#">Adicionar cartuchos</a></li>
+            <li><a href="#">Adicionar cartuchos</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="link-icone">
+            <a href="#">
+              <i class='bx bx-scan'></i>
+              <span class="nome-link">Scanners</span>
+            </a>
+            <i class='bx bx-chevron-down arrow'></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="nome-link" href="#">Scanners</a></li>
+            <li><a href="#">Adicionar scanner</a></li>
+            <li><a href="#">Adicionar scanner</a></li>
+            <li><a href="#">Adicionar scanner</a></li>
+          </ul>
+        </li>
+        <li>
+        <div class="detalhes-perfil">
+          <div class="conteudo-perfil">
+            <img src="img/img-perfil.jpg" alt="perfil">
+          </div>
+          <div class="name-job">
+            <div class="nome-perfil">Jeff Martin</div>
+            <div class="job">Técnico</div>
+          </div>
+          <i class='bx bx-log-out'></i>
+        </div>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+      <div class="home-content">
+        <i class='bx bx-menu'></i>
+        <span class="text"> Drop Down Sidebar</span>
+      </div>
+    </section>
+    <script>
+      let arrow = document.querySelectorAll(".arrow");
+      for (var i = 0; i < arrow.length; i++) {
+        arrow[i].addEventListener("click", (e)=>{
+          let arrowParent = e.target.parentElement.parentElement;
+          arrowParent.classList.toggle("showMenu");
+        });
+      }
+      
+      let sidebar = document.querySelector(".sidebar");
+      let sidebarBtn = document.querySelector(".bx-menu");
+      console.log(sidebarBtn);
+      sidebarBtn.addEventListener("click", ()=>{
+        sidebar.classList.toggle("close");
+      });
+    </script>
+
+  </body>
+  </html>
